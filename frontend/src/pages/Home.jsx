@@ -20,8 +20,12 @@ function HomePage() {
 
   return (
     <div>
-      <SearchBar cnn={ccn} setCcn={setCcn} />
-      <SearchButton onSearch={handleSearch} />
+      <div>
+        <SearchBar cnn={ccn} setCcn={setCcn} />
+      </div>
+      <div>
+        <SearchButton onSearch={handleSearch} />
+      </div>
     </div>
   );
 }
