@@ -1,16 +1,11 @@
-import HomePage from "./pages/Home";
+import HomePage from "./pages/home/Home";
 import "./App.css";
 
 function App() {
   return (
-    <html>
-      <head></head>
-      <body>
-        <div>
-          <HomePage />
-        </div>
-      </body>
-    </html>
+    <div>
+      <HomePage />
+    </div>
   );
 }
 

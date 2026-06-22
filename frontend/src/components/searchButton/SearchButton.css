@@ -3,11 +3,11 @@
   width: 200px;
   height: 45px;
   border-radius: 30px;
-  border: 1px solid #000000;
+  border: 0px solid #000000;
   font-size: 18px;
   color: #000000;
   letter-spacing: 1px;
-  background: #ffffff;
+  background: #d3d3d3;
   outline: none;
 
   transition:
@@ -16,7 +16,6 @@
 }
 
 .searchButton:hover {
-  border: 1px solid #000000;
   color: #ffffff;
-  background: #000000;
+  background: #0096ff;
 }

@@ -1,11 +1,16 @@
 .searchInput {
+  -webkit-appearance: none;
+  appearance: none;
+
   width: 400px;
   height: 60px;
   padding: 0px 20px;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
   border-radius: 5px;
   font-size: 30px;
+  color: #000000;
   text-align: center;
+  background-color: #faf9f6;
   outline: none;
 
   box-shadow: 0 0 0px rgba(0, 150, 255, 0);
