@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 import "./Home.css";
 
-import SearchBar from "../../components/SearchBar/SearchBar";
+import SearchBar from "../../components/searchBar/SearchBar";
 import SearchButton from "../../components/searchButton/SearchButton";
 
 function HomePage() {
