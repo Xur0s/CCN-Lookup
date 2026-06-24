@@ -1,6 +1,6 @@
 import axios from "axios";
 import { NotFoundError } from "../errors/NotFoundError.js";
-import { UpstreamError } from "../errors/UpStreamError.js";
+import { UpstreamError } from "../errors/UpstreamError.js";
 import {
   fetchClaimsUuid,
   fetchFacilityUuid,
