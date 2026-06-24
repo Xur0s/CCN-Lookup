@@ -5,7 +5,7 @@
   width: 400px;
   height: 60px;
   padding: 0px 20px;
-  border: 1px solid #000000;
+  border: 1px solid #848884;
   border-radius: 5px;
   font-size: 30px;
   color: #000000;
@@ -13,7 +13,7 @@
   background-color: #faf9f6;
   outline: none;
 
-  box-shadow: 0 0 0px rgba(0, 150, 255, 0);
+  box-shadow: 0 0 20px rgba(0, 150, 255, 0);
   transition:
     box-shadow 0.4s ease,
     border 0.2s ease;

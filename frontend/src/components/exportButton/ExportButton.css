@@ -1,13 +1,13 @@
-.searchButton {
+.exportButton {
   cursor: pointer;
-  width: 200px;
+  width: 15vh;
   height: 45px;
   border-radius: 30px;
   border: 0px solid #000000;
-  font-size: 18px;
-  color: #fff;
+  font-size: 1.5vh;
+  color: #000000;
   letter-spacing: 1px;
-  background: #000000;
+  background: #d3d3d3;
   outline: none;
 
   transition:
@@ -15,7 +15,7 @@
     border 0.2s ease;
 }
 
-.searchButton:hover {
+.exportButton:hover {
   color: #ffffff;
-  background: #0096ff;
+  background: #000000;
 }

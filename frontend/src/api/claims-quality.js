@@ -1,6 +1,6 @@
-async function fetchFacility(ccn) {
+async function fetchClaims(ccn) {
   const URL = import.meta.env.VITE_API_URL;
-  const route = "nursing-facilities";
+  const route = "claims-quality";
 
   const res = await fetch(`${URL}/${route}/${ccn}`);
 
@@ -18,4 +18,4 @@ async function fetchFacility(ccn) {
   return res.json();
 }
 
-export default fetchFacility;
+export default fetchClaims;

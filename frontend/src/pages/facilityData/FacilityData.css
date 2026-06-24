@@ -1,0 +1,83 @@
+header,
+main,
+table {
+  margin: 0;
+  padding: 0;
+}
+
+.headerLeftText {
+  padding-left: 2%;
+  font-size: 4vh;
+  color: #fff;
+}
+
+.headerRightText {
+  padding-right: 2%;
+  font-size: 3vh;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+main {
+  align-items: center;
+}
+
+table {
+  table-layout: fixed;
+  width: 60%;
+  border-collapse: separate;
+  border-spacing: 3vh;
+  padding-right: 3vh;
+}
+
+thead {
+  padding: 0;
+}
+
+th,
+td {
+  padding-bottom: 1.8vh;
+  border-bottom: 1px solid #ccc;
+  vertical-align: middle;
+}
+
+.leftColumn {
+  text-align: right;
+  vertical-align: center;
+  padding-right: 0%;
+  letter-spacing: 0.5px;
+}
+
+.rightColumn {
+  white-space: normal;
+  word-break: break-word;
+  text-align: left;
+  vertical-align: center;
+}
+
+.radioLabel {
+  padding-left: 1vh;
+}
+
+.radioValue {
+  display: block;
+  padding-top: 1vh;
+  padding-left: 3.4vh;
+  font-size: 1.6vh;
+}
+
+.manualInput {
+  padding-top: 1vh;
+  padding-left: 3.2vh;
+}
+
+.tableText {
+  font-size: 1.6vh;
+}
+
+.exportButtons {
+  display: flex;
+  align-items: center;
+  padding-top: 2vh;
+  padding-bottom: 3vh;
+}

@@ -1,4 +1,4 @@
-import getFacilityData from "../services/cmsApiService.js";
+import { getFacilityData } from "../services/cmsApiService.js";
 
 async function requestFacilityData(req, res, next) {
   const { ccn } = req.params;

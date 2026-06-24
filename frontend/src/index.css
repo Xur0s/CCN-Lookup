@@ -4,22 +4,7 @@ body {
   padding: 0;
 }
 
-.searchInput {
-  font-family: "Roboto Condensed", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings: "GRAD" 0;
-}
-
-.searchButton {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 580;
-  font-style: normal;
-  font-variation-settings: "GRAD" 0;
-}
-
+/* Home Page */
 .headerLeftText {
   font-family: "Google Sans", sans-serif;
   font-optical-sizing: auto;
@@ -32,6 +17,74 @@ body {
   font-family: "Google Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "GRAD" 0;
+}
+
+.searchTitle {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "GRAD" 0;
+}
+
+.invalidInput {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "GRAD" 0;
+}
+
+.searchInput {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "GRAD" 0;
+}
+
+.exportButton,
+.searchButton {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "GRAD" 0;
+}
+
+/* Facility Data Page */
+.leftColumn {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "GRAD" 0;
+}
+
+.radioLabel {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "GRAD" 0;
+}
+
+.radioValue,
+.tableText {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "GRAD" 0;
+}
+
+/* TextBox */
+.textInput {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
   font-variation-settings: "GRAD" 0;
 }
