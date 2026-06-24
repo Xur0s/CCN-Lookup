@@ -1,8 +1,8 @@
-import app from "./app.js";
+import app from "./src/app.js";
 
 import dotenv from "dotenv";
-import { initializeDataStores } from "./services/cmsDataStores.js";
-dotenv.config({ path: "../.env" });
+import { initializeDataStores } from "./src/services/cmsDataStores.js";
+dotenv.config({ path: "./.env" });
 
 const PORT = process.env.PORT || 4000;
 
