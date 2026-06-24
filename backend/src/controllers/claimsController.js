@@ -1,6 +1,6 @@
 import { getClaimsData } from "../services/cmsApiService.js";
 
-async function requestClaimData(req, res, next) {
+async function requestClaimsData(req, res, next) {
   const { ccn } = req.params;
 
   try {
@@ -14,4 +14,4 @@ async function requestClaimData(req, res, next) {
   }
 }
 
-export default requestClaimData;
+export default requestClaimsData;
